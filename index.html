@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="prism.css">
+        <script src="prism.js"></script>
+        <link rel="stylesheet" href="style.css">
+    <title>HTML Cheatsheet by CodeWithHarry</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png" alt=""></span>
+        <div class="content center">
+            This HTML Cheatsheet is For You!
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li> 
+            <li><b>form Tag:</b> An HTML form with two input fields and one submit button
+                <pre class="language-html"><code>&lt;form action="/action_page.php" method="get"&gt;
+    &lt;label for="fname"&gt;First name:&lt;/label&gt;
+    &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for="lname"&gt;Last name:&lt;/label&gt;
+    &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+            </li> 
+
+            <li><b>a Tag:</b> This tag open google.com website
+                <pre class="language-html"><code>&lt;a href="https://www.google.com"&gt;Visit google.com &lt;/a&gt;</code></pre>
+            </li>
+
+            <li><b>article Tag:</b> The &lt;article&gt; tag specifies independent, self-contained content.
+                <pre class="language-html"><code>&lt;article&gt;
+    &lt;h2&gt;Google Chrome&lt;/h2&gt;
+    &lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+            </li> 
+
+            <li><b>aside Tag:</b> Display some content aside from the content it is placed in
+                <pre class="language-html"><code>&lt;p&gt;My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!&lt;/p&gt;
+
+&lt;aside&gt;
+    &lt;h4&gt;Epcot Center&lt;/h4&gt;
+    &lt;p&gt;Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.&lt;/p&gt;
+&lt;/aside&gt;</code></pre>
+            </li> 
+
+            <li><b>audio Tag:</b> Play a sound file
+                <pre class="language-html"><code>&lt;audio controls&gt;
+    &lt;source src="horse.ogg" type="audio/ogg"&gt;
+    &lt;source src="horse.mp3" type="audio/mpeg"&gt;
+    Your browser does not support the audio tag.
+&lt;/audio&gt; </code></pre>
+            </li> 
+
+            <li><b>b Tag:</b> Make some text bold (without marking it as important)
+                <pre class="language-html"><code>&lt;p&gt;This is normal text - &lt;b&gt;and this is bold text&lt;/b&gt;.&lt;/p&gt;</code></pre>
+            </li> 
+
+            <li><b>footer Tag:</b> A footer section in a document
+                <pre class="language-js"><code>&lt;footer&gt;
+                    &lt;p&gt;Paragraph 1&lt;/p&gt;
+                    &lt;p&gt;&lt;a href="#"&gt;ancor tag&lt;/a&gt;&lt;/p&gt;
+                  &lt;/footer&gt; </code></pre>
+            </li>
+
+            <li><b>div Tag:</b> div section in a document that is styled with CSS
+                <pre class="language-html"><code>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="myDiv"&gt;
+  &lt;h2&gt;This is a heading in a div element&lt;/h2&gt;
+  &lt;p&gt;This is some text in a div element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li> 
+            <li><b>div Tag:</b> div section in a document that is styled with CSS
+                <pre class="language-html"><code>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="myDiv"&gt;
+  &lt;h2&gt;This is a heading in a div element&lt;/h2&gt;
+  &lt;p&gt;This is some text in a div element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li> 
+            <li><b>div Tag:</b> div section in a document that is styled with CSS
+                <pre class="language-html"><code>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="myDiv"&gt;
+  &lt;h2&gt;This is a heading in a div element&lt;/h2&gt;
+  &lt;p&gt;This is some text in a div element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li> 
+            <li><b>div Tag:</b> div section in a document that is styled with CSS
+                <pre class="language-html"><code>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="myDiv"&gt;
+  &lt;h2&gt;This is a heading in a div element&lt;/h2&gt;
+  &lt;p&gt;This is some text in a div element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li> 
+            <li><b>div Tag:</b> div section in a document that is styled with CSS
+                <pre class="language-html"><code>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="myDiv"&gt;
+  &lt;h2&gt;This is a heading in a div element&lt;/h2&gt;
+  &lt;p&gt;This is some text in a div element.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li> 
+        </ol>
+    </div>
+</body>
+
+</html>
